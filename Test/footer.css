@@ -1,0 +1,17 @@
+.footer{
+    background-color: rgb(68, 67, 67);
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    column-gap: 15px;
+    justify-content: center;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.shop-infor-field{
+    background-color: red;
+}
+
+.direct-to-shop-field{
+    background-color: red;
+}

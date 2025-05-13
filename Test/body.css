@@ -1,0 +1,193 @@
+.body{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.catalog{
+    margin-top: 130px;
+    height: 450px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.catalog-img{
+    width: 1100px;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+    color: red;
+    font-weight: bold;
+}
+
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 120px);
+    column-gap: 60px;
+    row-gap: 20px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.menu-infor{
+    display: flex;
+    width: 0;
+    text-align: center;
+}   
+
+.menu-link:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.menu-link{
+    transition: opacity 0.5s;
+}
+
+.menu-img{
+    display: block;
+    width: 130px;
+    height: 120px;
+    border-radius: 200px;
+    background-color: bisque;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.menu-link-title{
+    margin-left: 12px;
+}
+
+.product-list{
+    align-items: center;
+}
+
+.deal-menu{
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+
+.choice{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: rgb(252, 248, 248);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.choice:active{
+    background-color: rgb(205, 204, 204);
+    transition: 0.3s;
+}
+
+.choice:hover{
+    cursor: pointer;
+}
+
+.product-grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 245px);
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 40px;
+}
+
+.product-review{
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.product-img-div{
+    background-color: rgb(238, 238, 235);
+    border-radius: 5px;
+}
+
+.product-img{
+    height: 200px;
+    width: 240px;
+}
+
+.producy-name{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.product-price{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    margin-left: 5px;
+}
+
+.show-mor{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center
+}
+
+.show-more-btn{
+    height: 40px;
+    width: 220px;
+    background-color: rgb(212, 3, 3);
+    color: white;
+    border: none;
+}
+
+.poster-feild{
+    margin-top: 80px;
+    border-bottom: 3px solid gainsboro;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.poster{
+    height: 450px;
+    margin-top: 50px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.promise-feild{
+    display: grid;
+    grid-template-columns: repeat(4, 237px);
+    height: 250px;
+    justify-content: center;
+    column-gap: 40px;
+    margin-top: 30px;
+}
+
+.promise{
+    box-shadow: 1px 2px 2px 4px rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.promise-icon{
+    display: flex;
+    justify-content: center;
+    border-radius: 150px;
+    padding: 10px 10px 10px 10px;
+    background-color: red;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.like-icons{
+    height: 60px;
+}

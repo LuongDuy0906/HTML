@@ -1,0 +1,135 @@
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.top-session{
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: bisque;
+    border: none;
+}
+
+.left-session{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    margin-left: 90px;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 140px;
+    width: 140px;
+}
+
+.left-name{
+    background-color: bisque;
+    border: 1px solid white;
+    width: 120px;
+}
+
+.right-name{
+    background-color: coral;
+}
+
+.middle-session{
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    flex: 1;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 30px;
+}
+
+.search-bar{
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 6px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+
+.search-bar::placeholder{
+    font-family: "Share Tech", Arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.search-btn{
+    height: 40px;
+    width: 55px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    margin-left: -8px;
+}
+
+.search-icon{
+    height: 25px;
+    margin-top: 3px;
+}
+
+.right-session{
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    flex-shrink: 0;
+}
+
+.cart-btn, .deliver-btn, .account-btn{
+    border: none;
+    background-color: bisque;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.cart-btn:hover, .deliver-btn:hover, .account-btn:hover{
+    opacity: 0.7;
+}
+
+.cart-icon, .account-icon, .deliver-icon{
+    height: 30px;
+}
+
+.bottom-session{
+    background-color: white;
+    height: 65px;
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100%;
+}
+
+.category-list{
+    display: flex;
+    list-style: none;
+}
+
+.category-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: color 0.3s;
+}
+
+li{
+    margin-left: 50px;
+}
+
+.category-link:hover{
+    color: red;
+}
