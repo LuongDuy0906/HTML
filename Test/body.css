@@ -16,11 +16,12 @@
 }
 
 .title{
-    text-align: center;
     font-size: 30px;
     margin-top: 80px;
     color: red;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 .menu-grid{
@@ -101,7 +102,7 @@
 }
 
 .product-review{
-    height: 300px;
+    height: 380px;
     background-color: white;
     border-radius: 5px;
 }
@@ -131,6 +132,34 @@
     margin-left: 5px;
 }
 
+.product-price-sale{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(194, 189, 189);
+    margin-left: 5px;
+}
+
+.product-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn{
+    border: none;
+    height: 35px;
+    width: 150px;
+    background-color: rgb(250, 76, 76);
+    color: white;
+    transition: opacity 0.5s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
 .show-mor{
     padding-top: 50px;
     display: flex;
@@ -143,6 +172,12 @@
     background-color: rgb(212, 3, 3);
     color: white;
     border: none;
+    transition: opacity 0.5s;
+}
+
+.show-more-btn:hover{
+    opacity: 0.6;
+    cursor: pointer;
 }
 
 .poster-feild{
@@ -171,7 +206,7 @@
 }
 
 .promise{
-    box-shadow: 1px 2px 2px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 4px 4px 6px 10px rgba(0, 0, 0, 0.05);
     border: none;
     border-radius: 10px;
     text-align: center;
@@ -182,7 +217,7 @@
     justify-content: center;
     border-radius: 150px;
     padding: 10px 10px 10px 10px;
-    background-color: red;
+    background-color: bisque;
     margin-top: 40px;
     margin-left: 70px;
     margin-right: 70px;

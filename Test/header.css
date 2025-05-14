@@ -76,6 +76,12 @@
 .search-icon{
     height: 25px;
     margin-top: 3px;
+    transition: opacity 0.5s;
+}
+
+.search-icon:hover{
+    cursor: pointer;
+    opacity: 0.6;
 }
 
 .right-session{
