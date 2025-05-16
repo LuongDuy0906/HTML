@@ -1,0 +1,105 @@
+.product-body{
+    margin-top: 130px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.title{
+    display: flex;
+}
+
+.right-title{
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.main-session{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    column-gap: 15px;
+}
+
+.selection{
+    margin-top: 30px;
+}
+
+.product-list{
+    background-color: lightcoral;
+}
+
+.money-range>label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.money-range>input{
+    width: 260px;
+    margin-left: 5px;
+}
+
+.money-range{
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.color-choice{
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 30px;
+}
+
+.color-choice>p{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.color-choice>button{
+    height: 30px;
+    margin-left: 10px;
+    width: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.color-choice>button:hover{
+    cursor: pointer;
+}
+
+.black{
+    background-color: black;
+}
+
+.grey{
+    background-color: gray;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.size-choice>p{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.size-choice{
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 30px;
+}
+
+.size-choice-detail{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.product-list-title>p{
+    font-size: 30px;
+}
