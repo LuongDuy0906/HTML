@@ -303,10 +303,12 @@
     
         .catalog {
             margin-top: 130px;
-            height: 600px;
+            height: 500px;
             display: flex;
             flex-shrink: 0;
             justify-content: center;
+            margin-left: 100px;
+            margin-right: 100px;
         }
     
         .catalog-img {
@@ -325,8 +327,8 @@
     
         .menu-grid {
             display: grid;
-            grid-template-columns: repeat(6, 197px);
-            column-gap: 15px;
+            grid-template-columns: repeat(6, 180px);
+            column-gap: 10px;
             row-gap: 20px;
             margin-top: 40px;
             justify-content: center;
@@ -350,9 +352,9 @@
     
         .menu-img {
             display: block;
-            width: 170px;
-            height: 150px;
-            border-radius: 200px;
+            width: 150px;
+            height: 130px;
+            border-radius: 250px;
             background-color: bisque;
             box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
         }
@@ -395,7 +397,7 @@
         .product-grid {
             display: grid;
             justify-content: center;
-            grid-template-columns: repeat(6, 255px);
+            grid-template-columns: repeat(4, 246px);
             column-gap: 20px;
             row-gap: 30px;
             margin-top: 40px;
@@ -489,7 +491,7 @@
         }
     
         .poster {
-            height: 600px;
+            height: 500px;
             margin-top: 50px;
             display: flex;
             flex-shrink: 0;
@@ -498,10 +500,10 @@
     
         .promise-feild {
             display: grid;
-            grid-template-columns: repeat(4, 300px);
+            grid-template-columns: repeat(4, 260px);
             justify-content: center;
-            column-gap: 40px;
-            margin-top: 30px;
+            column-gap: 20px;
+            margin-top: 10px;
         }
     
         .promise {
@@ -529,6 +531,6 @@
 
         .promise>p {
             margin-top: 20px;
-            font-size: 18px;
+            font-size: 14px;
         }
 }
